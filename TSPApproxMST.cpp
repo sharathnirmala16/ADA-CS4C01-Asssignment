@@ -1,3 +1,9 @@
+//Program: Travelling Salesman Problem, the algorithm produces an approximate solution by:
+//Obtaining a minimum spanning tree, then it performs a preorder walk on the minimum spanning tree,
+//after which it calculates the cost of this preorder walk. The preorder walk is performed on edges
+//sorted by their weight.
+//Author: Sharath Chandra Nirmala
+//USN: 4NI20CS093
 #include<iostream>
 #include<string>
 #include<vector>
